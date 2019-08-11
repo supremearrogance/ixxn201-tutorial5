@@ -1,0 +1,697 @@
+body{
+  background-color: #efa077;
+  margin: 0;
+  height: 100vh;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.beer-background{
+  background-color: #efa077;
+  margin: 0;
+  height: 300%;
+  font-family: 'Montserrat' sans-serif;
+}
+
+.contact-background{
+  background-color: #efa077;
+  margin: 0;
+  height: 100vh;
+  font-family: 'Montserrat' sans-serif;
+}
+
+/* Navigation */
+
+nav{
+  position: fixed;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  top: 0px;
+}
+
+/* nav a{
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  padding: 2.5%;
+  color: white;
+  font-size: 14pt;
+  font-style: italic;
+}
+
+nav a:hover{
+  text-decoration: line-through;
+}
+
+*/
+
+.nav-left{
+  display: flex;
+  justify-content: flex-start;
+  width: 35%;
+  padding-left: 2.5%;
+}
+
+.nav-left a{
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  padding: 2.5%;
+  color: white;
+  font-size: 14pt;
+  font-style: italic;
+}
+
+.nav-left a:hover{
+  text-decoration: line-through;
+}
+
+.nav-right{
+  display: flex;
+  justify-content: flex-end;
+  width: 35vh;
+  padding-left: 15%;
+}
+
+.nav-right a{
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  padding: 2.5%;
+  color: white;
+  font-size: 14pt;
+  font-style: italic;
+}
+
+.nav-right a:hover{
+  text-decoration: line-through;
+}
+
+.logo{
+  font-family: 'Montserrat', sans-serif;
+  padding: 0;
+  color: white;
+  text-align: center;
+  justify-content: center;
+  align-items: flex-start;
+  font-style: italic;
+  font-weight: 800;
+  font-size: 20pt;
+}
+
+.logo a{
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: white;
+  font-size: 14pt;
+  font-style: italic;
+
+}
+
+.nav-left2{
+  display: flex;
+  justify-content: flex-start;
+  width: 35%;
+  padding-left: 2.5%;
+}
+
+.nav-left2 a{
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  padding: 2.5%;
+  color: #efa077;
+  font-size: 14pt;
+  font-style: italic;
+}
+
+.nav-left2 a:hover{
+  text-decoration: line-through;
+}
+
+.nav-right2{
+  display: flex;
+  justify-content: flex-end;
+  width: 35vh;
+  padding-left: 15%;
+}
+
+.nav-right2 a{
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  padding: 2.5%;
+  color: #efa077;
+  font-size: 14pt;
+  font-style: italic;
+}
+
+.nav-right2 a:hover{
+  text-decoration: line-through;
+}
+
+.logo2{
+  font-family: 'Montserrat', sans-serif;
+  padding: 0;
+  color: #efa077;
+  text-align: center;
+  justify-content: center;
+  align-items: flex-start;
+  font-style: italic;
+  font-weight: 800;
+  font-size: 20pt;
+}
+
+.logo2 a{
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: #efa077;
+  font-size: 14pt;
+  font-style: italic;
+}
+
+/* Home Page */
+
+.slogan{
+  padding-top: 7.5%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.slogan h1{
+  font-family: 'Montserrat', sans-serif;
+  color: White;
+  line-height: 95%;
+  font-weight: bold;
+  font-style: italic;
+  text-align: center;
+  font-size: 70pt;
+}
+
+.browse-button{
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  align-items: center;
+  margin-top: 2.5%;
+  height: 7.5%;
+  background-color: white;
+  width: 17.5%;
+  border-radius: 20px;
+}
+
+.browse-button a{
+  text-decoration: none;
+  font-size: 15pt;
+  font-style: italic;
+  color: #efa077;
+  font-weight: bold;
+}
+
+
+/* Titles */
+
+.title{
+  display: flex;
+  margin-top: 7.5%;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: flex-start;
+  height: 27.5%;
+}
+
+.title h1{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 800;
+  font-style: italic;
+  font-size: 200pt;
+  color: white;
+  line-height: 90%;
+  margin: 0;
+}
+
+.title p{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 200;
+  font-style: italic;
+  font-size: 20pt;
+  color: white;
+  margin: 0;
+  padding-left: 5%;
+}
+
+.contact-title{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-end;
+}
+
+.contact-title h1{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 800;
+  font-style: italic;
+  font-size: 150pt;
+  color: white;
+  line-height: 90%;
+  margin: 0;
+}
+
+/* Our Beers Page */
+
+.beers{
+  padding-top: 10%;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  width: 85%;
+  height: 100%;
+}
+
+.row1{
+  display: flex;
+  justify-content: space-between;
+  top: 5%;
+  height: 50%;
+  width: 100%;
+}
+
+.row2{
+  display: flex;
+  justify-content: space-between;
+  height: 50%;
+  width: 100%;
+}
+
+
+.desc-right{
+  display: flex;
+  align-items: flex-end;
+  flex-direction: column;
+  justify-content: center;
+  text-align: right;
+  font-family: "Montserrat", sans-serif;
+}
+
+.desc-right h1{
+  margin: 0;
+  font-style: italic;
+
+}
+
+.desc-right h2{
+  margin: 0;
+  font-style: italic;
+
+}
+
+.desc-right h3{
+  margin: 0;
+  font-style: italic;
+
+}
+
+.beer-right{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: left;
+  font-family: "Montserrat", sans-serif;
+}
+
+
+.desc-left{
+  padding-top: 20%;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  justify-content: center;
+  text-align: left;
+  font-family: "Montserrat", sans-serif;
+}
+
+.desc-left h1{
+  margin: 0;
+  font-style: italic;
+
+}
+
+.desc-left h2{
+  margin: 0;
+  font-style: italic;
+
+}
+
+.desc-left h3{
+  margin: 0;
+  font-style: italic;
+
+}
+
+.buy{
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  margin-top: 10%;
+  height: 5%;
+  background-color: white;
+  width: 50%;
+  border-radius: 40px;
+}
+
+.buy a{
+  text-decoration: none;
+  font-size: 15pt;
+  font-style: italic;
+  color: #efa077;
+  font-weight: bold;
+}
+
+.beer-left{
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  text-align: left;
+  font-family: "Montserrat", sans-serif;
+}
+
+/* Contact Page */
+
+.contact-info{
+  display:flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  align-items: center;
+  height: 90vh;
+  margin-top: 5%;
+}
+
+.info{
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: row;
+  align-items: center;
+  margin: 0 2.5%;
+  width: 95%;
+  height: 90%;
+}
+
+.map{
+  margin-left: 2.5%;
+  width: 35%;
+  height: 80%;
+}
+
+.details{
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  width: 35%;
+  height: 80%;
+  margin-right: 3.5%;
+  margin-left: 2.5%;
+}
+
+.details h1{
+
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  font-style: italic;
+  font-size: 20pt;
+  color: black;
+  margin: 0;
+}
+
+.details p{
+  color: black;
+  margin: 0;
+}
+
+.hours{
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  height: 80%;
+  width: 15%;
+  margin-right: 5%;
+}
+
+.hours-title{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 10%;
+  border-bottom: 1px solid White;
+}
+
+.hours-title h1{
+
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  font-style: italic;
+  font-size: 20pt;
+  color: black;
+  margin: 0;
+}
+
+.table{
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: row;
+  width: 100%;
+  height: 75%;
+}
+
+.table p{
+  text-align: right;
+  color: black;
+  margin: 0;
+}
+
+.day{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  width: 50%;
+  height: 100%;
+}
+
+.time{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  width: 50%;
+  height: 100%;
+  border-left: 1px solid white;
+}
+
+/* Cart Page */
+
+.cart-background{
+
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  flex-direction: column;
+  height: 90%;
+  width: 100%;
+}
+
+.cart-background h2{
+  padding-right: 3%;
+  color: white;
+  font-style: italic;
+}
+
+.cart-list{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 0.5%;
+  margin-right: 3.5%;
+  width: 40%;
+  height: 50%;
+  border-top: 2px solid white;
+  border-bottom: 2px solid white;
+}
+
+.cart-header{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 80%;
+  margin-top: 2.5%;
+  padding-bottom: 1.5%;
+  border-bottom: 1px solid white;
+}
+
+.header-item{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 35%;
+}
+
+.cart-items{
+  width: 80%;
+}
+
+.item{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.item-info{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 30%;
+}
+
+.total{
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  border-top: 1px solid white;
+  width: 80%;
+  margin-bottom: 2.5%;
+}
+
+.buy-button{
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  align-items: center;
+  margin-top: 2.5%;
+  margin-left: 41.5%;
+  height: 7.5%;
+  background-color: white;
+  width: 12.5%;
+  border-radius: 20px;
+}
+
+.buy-button a{
+  text-decoration: none;
+  font-size: 15pt;
+  font-style: italic;
+  color: #efa077;
+  font-weight: bold;
+}
+
+.cancel{
+  margin-top: 1.5%;
+  display: flex;
+  justify-content: center;
+  padding-right: 4%;
+  width: 20%;
+}
+
+.cancel a{
+  text-decoration: none;
+  color: white;
+}
+
+.cancel a:hover{
+  text-decoration: line-through;
+  color: white;
+}
+
+/* Login Page */
+
+.login-background{
+
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  flex-direction: column;
+  height: 75%;
+  width: 100%;
+}
+
+.login-background h2{
+  padding-right: 3%;
+  color: white;
+  font-style: italic;
+}
+
+.login-background h3{
+  margin: 2.5%;
+  padding-right: 3%;
+  color: white;
+}
+
+.login-details{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin: 2%;
+  width: 80%;
+  border: 2px solid White;
+  border-radius: 10px;
+}
+
+.login-items{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  width: 80%;
+}
+
+.login-box{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 0.5%;
+  margin-right: 3.5%;
+  width: 40%;
+  height: 50%;
+  border-top: 2px solid white;
+  border-bottom: 2px solid white;
+}
+
+.login-button{
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  margin-top: 2.5%;
+  height: 30%;
+  background-color: white;
+  width: 30%;
+  border-radius: 20px;
+}
+
+.login-button a{
+  text-decoration: none;
+  margin: 5%;
+  font-size: 15pt;
+  font-style: italic;
+  color: #efa077;
+  font-weight: bold;
+}
+
+.login-items p{
+  margin-top: 0;
+}
